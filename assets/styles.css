@@ -1,0 +1,37 @@
+#pageheader {
+    text-align: center;
+    padding: 3% 0px;
+}
+.sidebar {
+    background-color: #E5EAF0;
+    padding: 1%;
+    color: #223a68;
+}
+.sidebar a {
+    color: #223a68;
+    transition: all 0.2s ease;
+}
+.sidebar a:hover {
+    color: #da9e28;
+    text-decoration: none;
+}
+.sidebar h3 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.DCC-content {
+    text-align: center;
+}
+#tour-button {
+    padding: 5px 10px;
+    margin: 5% 0px 0px 0px;
+    background-color: #223a68;
+    color: #da9e28;
+    border: none;
+    transition: all 0.5s ease;
+}
+#tour-button:hover {
+    background-color: #da9e28;
+    color: #223a68;
+}
