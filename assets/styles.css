@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
+
+html {
+  font-family: "Cabin",sans-serif;
+}
+
 #pageheader {
     text-align: center;
     padding: 3% 0px;
@@ -34,4 +40,19 @@
 #tour-button:hover {
     background-color: #da9e28;
     color: #223a68;
+}
+
+#mil-bg {
+  background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("milburngate.jpg");
+  background-size: cover;
+}
+
+#mount-bg {
+  background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("mount_oswald.jpg");
+  background-size: cover;
+}
+
+#tlc-bg {
+  background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("DU_teaching_hub.jpg");
+  background-size: cover;
 }
