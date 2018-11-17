@@ -58,7 +58,7 @@ html {
     border: none;
     transition: all 0.5s ease;
     text-transform: uppercase;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 #tour-button:hover {
     background-color: #da9e28;
