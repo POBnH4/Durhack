@@ -6,16 +6,38 @@ html {
 
 #pageheader {
     text-align: center;
-    padding: 3% 0px;
+    padding: 2% 0px;
 }
+
+#pageheader h1 {
+    font-size: 35px;
+}
+
+#pageheader h2 {
+  font-size: 30px;
+}
+
 .sidebar {
-    background-color: #E5EAF0;
+    background-color: rgba(229,234,240,0.7);
     padding: 1%;
     color: #223a68;
+    transition: background-color 0.2s;
 }
+
+.sidebar:hover {
+  background-color: rgba(229,234,240,1);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 5px;
+  text-align: center;
+}
+
 .sidebar a {
     color: #223a68;
-    transition: all 0.2s ease;
+    transition: color 0.2s ease;
 }
 .sidebar a:hover {
     color: #da9e28;
@@ -27,19 +49,21 @@ html {
     font-weight: bold;
 }
 .DCC-content {
-    text-align: center;
 }
 #tour-button {
-    padding: 5px 10px;
-    margin: 5% 0px 0px 0px;
+    padding: 10px 20px;
+    margin: 5% 0px;
     background-color: #223a68;
     color: #da9e28;
     border: none;
     transition: all 0.5s ease;
+    text-transform: uppercase;
+    border-radius: 3px;
 }
 #tour-button:hover {
     background-color: #da9e28;
     color: #223a68;
+    border-radius: 0px;
 }
 
 #mil-bg {
@@ -55,4 +79,25 @@ html {
 #tlc-bg {
   background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("DU_teaching_hub.jpg");
   background-size: cover;
+}
+
+#tour-bg {
+  background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("durham_castle.jpg");
+  background-size: cover;
+}
+
+.home-content {
+  padding-bottom: 0px;
+}
+
+#button-container {
+  text-align: center;
+}
+
+.sidebar li {
+  padding: 10px 0px;
+}
+
+.home-content .row div, .home-content .row div img {
+  border-radius: 5px;
 }
