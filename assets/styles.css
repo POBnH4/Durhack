@@ -102,6 +102,12 @@ html {
   border-radius: 5px;
 }
 
+.booking {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+
 .bookingtable {
    border: solid;
    padding: 10px;
@@ -111,6 +117,10 @@ html {
    color: #223a68;
    transition: background-color 0.2s;
    font-family: Cabin;
+   }
+
+  .bookingtable:hover {
+     background-color: rgba(229,234,240,1);
    }
 
 .bookingtable td, .bookingtable th {
@@ -123,5 +133,17 @@ html {
 }
 
 .input-form {
-  align: right;
+  padding-top: 150px;
+}
+
+.input {
+  text-align: center;
+}
+
+.button {
+  text-align: right;
+}
+
+input[type="text"] {
+  background-color: rgba(229,234,240,0.7);
 }
