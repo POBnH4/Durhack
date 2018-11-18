@@ -101,3 +101,14 @@ html {
 .home-content .row div, .home-content .row div img {
   border-radius: 5px;
 }
+
+.bookingtable {
+    border: solid;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.bookingtable td, .bookingtable th {
+    padding: 1em;
+    border: 1px solid #000;
+}
