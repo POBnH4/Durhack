@@ -146,4 +146,10 @@ html {
 
 input[type="text"] {
   background-color: rgba(229,234,240,0.7);
+  transition: background-color 0.2s;
+  font-family: Cabin;
+}
+
+input[type="text"]:hover {
+ background-color: rgba(229,234,240,1);
 }
