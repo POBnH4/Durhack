@@ -48,8 +48,6 @@ html {
     text-align: center;
     font-weight: bold;
 }
-.DCC-content {
-}
 #tour-button {
     padding: 10px 20px;
     margin: 5% 0px;
@@ -59,6 +57,7 @@ html {
     transition: all 0.5s ease;
     text-transform: uppercase;
     border-radius: 10px;
+    cursor: pointer;
 }
 #tour-button:hover {
     background-color: #da9e28;
@@ -82,7 +81,17 @@ html {
 }
 
 #tour-bg {
-  background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("durham_castle.jpg");
+  background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("river.jpg");
+  background-size: cover;
+}
+
+#citymap-bg {
+  background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("arch.jpg");
+  background-size: cover;
+}
+
+#booking-bg {
+  background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("DCC_HQ.jpg");
   background-size: cover;
 }
 
@@ -146,4 +155,10 @@ html {
 
 input[type="text"] {
   background-color: rgba(229,234,240,0.7);
+  transition: background-color 0.2s;
+  font-family: Cabin;
+}
+
+input[type="text"]:hover {
+ background-color: rgba(229,234,240,1);
 }
