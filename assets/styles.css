@@ -101,3 +101,27 @@ html {
 .home-content .row div, .home-content .row div img {
   border-radius: 5px;
 }
+
+.bookingtable {
+   border: solid;
+   padding: 10px;
+   margin: 0 auto;
+   background-color: rgba(229,234,240,0.7);
+   padding: 1%;
+   color: #223a68;
+   transition: background-color 0.2s;
+   font-family: Cabin;
+   }
+
+.bookingtable td, .bookingtable th {
+   padding: 1em;
+   border: 1px solid #000;
+   font-family: Cabin;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.input-form {
+  align: right;
+}
