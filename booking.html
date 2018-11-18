@@ -29,6 +29,18 @@
 		<![endif]-->
 
 </head>
+<script type="text/javascript">
+    function foo(obj){
+        var room = $(obj).closest("tr").find(".room").text();
+        var time = $(obj).closest("tr").find(".time").text();
+        var room = $(obj).closest("tr").find(".avail").text();
+
+        $("#desk").val(room);
+
+        alert(row);
+        //alert(JSON.stringify(obj));
+    }
+</script>
 
 <body id="home" class="template template--home ">
     <header>
@@ -182,35 +194,35 @@
                     <th>Office No.</th>
                     <th>Availability</th>
                 </tr>
-                <tr>
-                    <td>09:00-10:00</td>
-                    <td>Room 1</td>
-                    <td></td>
+                <tr onclick="foo(this)">
+                    <td class="time">09:00-10:00</td>
+                    <td class="room">Room 1</td>
+                    <td class="avail"></td>
                 </tr>
-                <tr>
-                    <td>010:00-11:00</td>
-                    <td>Room 2</td>
-                    <td></td>
+                <tr onclick="foo(this)">
+                    <td class="time">010:00-11:00</td>
+                    <td class="room">Room 2</td>
+                    <td class="avail"></td>
                 </tr>
-                <tr>
-                    <td>11:00-12:00</td>
-                    <td>Room 3</td>
-                    <td></td>
+                <tr onclick="foo(this)">
+                    <td class="time">11:00-12:00</td>
+                    <td class="room">Room 3</td>
+                    <td class="avail"></td>
                 </tr>
-                <tr>
-                    <td>12:00-13:00</td>
-                    <td>Room 4</td>
-                    <td></td>
+                <tr onclick="foo(this)">
+                    <td class="time">12:00-13:00</td>
+                    <td class="room">Room 4</td>
+                    <td class="avail"></td>
                 </tr>
-                <tr>
-                    <td>13:00-14:00</td>
-                    <td>Room 5</td>
-                    <td></td>
+                <tr onclick="foo(this)">
+                    <td class="time">13:00-14:00</td>
+                    <td class="room">Room 5</td>
+                    <td class="avail"></td>
                 </tr>
-                <tr>
-                    <td>14:00-15:00</td>
-                    <td>Room 6</td>
-                    <td></td>
+                <tr onclick="foo(this)">
+                    <td class="time">14:00-15:00</td>
+                    <td class="room">Room 6</td>
+                    <td class="avail"></td>
                 </tr>
 
          </table>
@@ -221,13 +233,13 @@
          </div>
 
           <div class="input-values">
-           <input type="text" placeholder="Input Name">
+           <input id="name" type="text" placeholder="Input Name">
            <br>
            <br>
-           <input type="text" placeholder="Desired Desk">
+           <input id="desk" type="text" placeholder="Desired Desk">
            <br>
            <br>
-           <input type="text" placeholder="Desired Time">
+           <input id="time" type="text" placeholder="Desired Time">
            <br>
            <br>
            <br>
